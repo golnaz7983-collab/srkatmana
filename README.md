@@ -28,7 +28,7 @@
 - خروجی JSON از داده‌های پنل
 
 ## انتشار
-در GitHub به **Settings → Pages** بروید، گزینه **Deploy from a branch** را انتخاب کنید، branch را روی `main` و folder را روی `/(root)` بگذارید و Save را بزنید. چند دقیقه بعد سایت از لینک بالا قابل دسترسی می‌شود.
+در GitHub به [Settings → Pages](https://github.com/golnaz7983-collab/srkatmana/settings/pages) بروید و در بخش **Build and deployment** گزینه **GitHub Actions** را به‌عنوان Source انتخاب کنید. فایل انتشار خودکار از قبل در `.github/workflows/pages.yml` قرار داده شده است. بعد از اجرای موفق workflow، سایت از لینک بالا قابل دسترسی می‌شود.
 
 ## نکته
 این یک بازی/سامانه نمایشی است. اطلاعات درخواست‌ها در پایگاه داده مشترک ذخیره می‌شوند؛ داده‌های عمومی ملک برای بازدیدکنندگان قابل مشاهده‌اند. فقط کلید publishable در فایل سایت استفاده شده و کلیدهای secret/service-role نباید هرگز داخل سایت یا مخزن قرار بگیرند.
