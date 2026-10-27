@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111827">
+<title>موزیک دیجی خفن | پخش آهنگ</title>
+<style>
+:root{--bg:#0b1020;--panel:#151d33;--panel2:#1d2944;--text:#f8fafc;--muted:#aab6cc;--accent:#8b5cf6;--accent2:#22d3ee;--line:#34415e;--shadow:0 18px 50px #0005}
+*{box-sizing:border-box}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:radial-gradient(ellipse at top,var(--panel2),var(--bg) 62%);color:var(--text);min-height:100vh;transition:background .25s,color .25s}
+body[data-theme="pink"]{--bg:#220d1b;--panel:#35152b;--panel2:#4b1d3a;--accent:#fb7185;--accent2:#f9a8d4;--line:#66334f}
+body[data-theme="blue"]{--bg:#071827;--panel:#102b43;--panel2:#173c59;--accent:#38bdf8;--accent2:#67e8f9;--line:#2b526d}
+body[data-theme="green"]{--bg:#071b16;--panel:#102c23;--panel2:#194234;--accent:#34d399;--accent2:#bef264;--line:#2c5a49}
+body[data-theme="orange"]{--bg:#211207;--panel:#352012;--panel2:#4b2c16;--accent:#fb923c;--accent2:#facc15;--line:#70451f}
+button{font:inherit;cursor:pointer} .wrap{max-width:1100px;margin:auto;padding:22px}
+header{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:15px 0 24px}
+.brand{display:flex;align-items:center;gap:12px}.logo{width:52px;height:52px;display:grid;place-items:center;border-radius:17px;background:linear-gradient(135deg,var(--accent),var(--accent2));font-size:27px;box-shadow:var(--shadow)}h1{font-size:clamp(22px,4vw,34px);margin:0} .sub{color:var(--muted);margin:7px 0 0;font-size:13px}
+.tag{border:1px solid var(--line);background:var(--panel);padding:9px 13px;border-radius:999px;color:var(--muted);font-size:12px}
+.hero{border:1px solid var(--line);border-radius:28px;padding:clamp(22px,5vw,42px);background:linear-gradient(120deg,color-mix(in srgb,var(--accent) 20%,var(--panel)),var(--panel));box-shadow:var(--shadow);overflow:hidden;position:relative}
+.hero:after{content:"♫";position:absolute;left:35px;top:-48px;font-size:220px;opacity:.06;pointer-events:none}
+.eyebrow{color:var(--accent2);font-weight:bold;font-size:13px}.hero h2{font-size:clamp(28px,5vw,45px);margin:13px 0}.hero p{color:var(--muted);line-height:1.9;max-width:620px;margin:0}
+section{margin-top:28px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:14px}h3{margin:0;font-size:20px}.hint{font-size:12px;color:var(--muted)}
+.themes{display:flex;gap:9px;flex-wrap:wrap}.theme-btn{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:14px;padding:10px 13px;background:var(--panel);color:var(--text)}.theme-btn[aria-pressed="true"]{outline:2px solid var(--accent);border-color:transparent}.dot{width:15px;height:15px;border-radius:50%;background:var(--dot)}
+.categories{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.category{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:20px;text-align:right;color:var(--text);min-height:160px;transition:transform .2s,border-color .2s}.category:hover{transform:translateY(-3px);border-color:var(--accent)}.category[aria-pressed="true"]{border:2px solid var(--accent);background:var(--panel2)}.cat-icon{font-size:30px}.category strong{display:block;font-size:18px;margin:13px 0 7px}.category small{color:var(--muted);line-height:1.7}
+.listbox{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:20px}.empty{padding:24px;text-align:center;border:1px dashed var(--line);border-radius:16px;color:var(--muted);line-height:2}.empty .big{font-size:35px}
+.player{margin-top:18px;background:var(--panel2);border:1px solid var(--line);border-radius:22px;padding:18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}.disc{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--accent2));font-size:24px}.player-copy{flex:1;min-width:170px}.player-copy strong{display:block}.player-copy span{display:block;color:var(--muted);font-size:12px;margin-top:6px}.play{border:0;border-radius:14px;background:var(--accent);color:#111827;font-weight:bold;padding:12px 18px}.play:disabled{opacity:.5;cursor:not-allowed}
+footer{text-align:center;padding:30px 0 18px;color:var(--muted);font-size:12px;line-height:2}
+@media(max-width:680px){.categories{grid-template-columns:1fr}.category{min-height:0}.wrap{padding:15px}.hero{border-radius:22px}}
+</style>
+</head>
+<body data-theme="purple">
+<div class="wrap">
+<header>
+ <div class="brand"><div class="logo" aria-hidden="true">🎧</div><div><h1>موزیک دیجی خفن</h1><p class="sub">یه منوی ساده برای انتخاب حال‌وهوای موزیکت</p></div></div>
+ <span class="tag">⚡ بدون ثبت‌نام • رایگان برای ورود</span>
+</header>
+<main>
+<div class="hero"><span class="eyebrow">WELCOME TO DJ MUSIC</span><h2>حال‌وهواتو انتخاب کن 🎶</h2><p>از منو سبک موردعلاقه‌ات رو انتخاب کن. این نسخه‌ی اولیه‌ست؛ فعلاً جای آهنگ‌ها آماده شده و می‌تونیم آهنگ‌ها رو مرحله‌به‌مرحله به هر بخش اضافه کنیم.</p></div>
+<section aria-labelledby="theme-title">
+ <div class="section-head"><h3 id="theme-title">🎨 رنگ سایت رو انتخاب کن</h3><span class="hint">۴ تم مختلف</span></div>
+ <div class="themes">
+  <button class="theme-btn" data-set-theme="purple" aria-pressed="true"><span class="dot" style="--dot:linear-gradient(135deg,#8b5cf6,#22d3ee)"></span>بنفش نئونی</button>
+  <button class="theme-btn" data-set-theme="pink" aria-pressed="false"><span class="dot" style="--dot:linear-gradient(135deg,#fb7185,#f9a8d4)"></span>صورتی</button>
+  <button class="theme-btn" data-set-theme="blue" aria-pressed="false"><span class="dot" style="--dot:linear-gradient(135deg,#38bdf8,#67e8f9)"></span>آبی</button>
+  <button class="theme-btn" data-set-theme="green" aria-pressed="false"><span class="dot" style="--dot:linear-gradient(135deg,#34d399,#bef264)"></span>سبز</button>
+ </div>
+</section>
+<section aria-labelledby="category-title">
+ <div class="section-head"><h3 id="category-title">🎵 دسته‌بندی آهنگ‌ها</h3><span class="hint">برای دیدن لیست، یک بخش رو بزن</span></div>
+ <div class="categories">
+  <button class="category" data-category="funk" aria-pressed="true"><span class="cat-icon">🪩</span><strong>فانک</strong><small>بیت‌های پرانرژی و ریتم‌های خفن</small></button>
+  <button class="category" data-category="iranian" aria-pressed="false"><span class="cat-icon">🇮🇷</span><strong>گلچین ایرانی</strong><small>آهنگ‌های ایرانی برای سلیقه‌های مختلف</small></button>
+  <button class="category" data-category="memes" aria-pressed="false"><span class="cat-icon">😂</span><strong>صدای میم‌های معروف</strong><small>صداهای کوتاه و بامزه‌ی اینترنتی</small></button>
+ </div>
+</section>
+<section aria-labelledby="songs-title">
+ <div class="section-head"><h3 id="songs-title">📀 <span id="current-title">لیست فانک</span></h3><span class="hint">مرحلهٔ اول طراحی منو</span></div>
+ <div class="listbox">
+  <div class="empty"><div class="big" id="empty-icon">🎶</div><strong id="empty-title">لیست فانک آمادهٔ اضافه کردن آهنگ است</strong><br><span id="empty-desc">هنوز فایل آهنگی به این بخش وصل نشده. در مرحلهٔ بعد، آهنگ‌ها را همین‌جا یکی‌یکی اضافه می‌کنیم.</span></div>
+  <div class="player"><div class="disc">♫</div><div class="player-copy"><strong id="player-title">هنوز آهنگی انتخاب نشده</strong><span id="player-subtitle">بعد از اضافه شدن فایل‌ها، پخش‌کننده از همین‌جا کار می‌کند.</span></div><button class="play" disabled>▶ پخش</button></div>
+ </div>
+</section>
+</main>
+<footer>موزیک دیجی خفن · نسخهٔ اولیه<br>برای انتشار عمومی، فایل آهنگ‌ها باید مجاز برای استفاده باشند.</footer>
+</div>
+<script>
+const names={funk:{title:'لیست فانک',empty:'لیست فانک آمادهٔ اضافه کردن آهنگ است',icon:'🪩',desc:'هنوز فایل آهنگی به این بخش وصل نشده. در مرحلهٔ بعد، آهنگ‌ها را همین‌جا یکی‌یکی اضافه می‌کنیم.'},iranian:{title:'گلچین ایرانی',empty:'بخش گلچین ایرانی آماده است',icon:'🇮🇷',desc:'آهنگ‌های این بخش را می‌توانیم در مرحلهٔ بعد اضافه کنیم.'},memes:{title:'صدای میم‌های معروف',empty:'بخش صداهای میم آماده است',icon:'😂',desc:'کلیپ‌های صوتی کوتاه را در مرحلهٔ بعد به این فهرست اضافه می‌کنیم.'}};
+document.querySelectorAll('[data-set-theme]').forEach(b=>b.addEventListener('click',()=>{document.body.dataset.theme=b.dataset.setTheme;document.querySelectorAll('[data-set-theme]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)))}));
+document.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>{const n=names[b.dataset.category];document.querySelectorAll('[data-category]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.getElementById('current-title').textContent=n.title;document.getElementById('empty-title').textContent=n.empty;document.getElementById('empty-icon').textContent=n.icon;document.getElementById('empty-desc').textContent=n.desc;document.getElementById('player-title').textContent='هنوز آهنگی انتخاب نشده';}));
+</script>
+</body>
+</html>
